@@ -1,10 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
-    "paths": {
-      "": ["src/*"]
-    },
-    "outDir": "build/dist",
     "module": "CommonJS",
     "target": "es5",
     "lib": ["es6", "dom", "esnext"],
@@ -22,5 +17,5 @@
     "noUnusedLocals": true,
     "esModuleInterop": true
   },
-  "exclude": ["node_modules", "build", "scripts", "webpack"]
+  "exclude": ["node_modules", "dist", "test"]
 }

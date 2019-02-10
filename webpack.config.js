@@ -6,14 +6,17 @@ module.exports = {
   mode: 'development',
   context: path.join(basePath, 'src'),
   resolve: {
-    extensions: ['.js']
+    extensions: ['.js', '.ts', '.tsx']
   },
   entry: {
-    app: './index.js'
+    app: './index.ts'
   },
   output: {
     path: path.join(basePath, 'dist'),
     filename: '[name].js'
+  },
+  module: {
+    rules: [{ test: /.tsx?$/, loader: 'ts-loader' }]
   },
   devServer: {
     contentBase: path.join(basePath, 'dist')
