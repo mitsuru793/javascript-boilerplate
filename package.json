@@ -6,7 +6,7 @@
   "author": "mitsuru793 <mitsuru793@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --open",
     "test": "NODE_PATH=src TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha --require ts-node/register test/**/*.ts"
   },
   "devDependencies": {
