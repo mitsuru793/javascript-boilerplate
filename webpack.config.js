@@ -1,4 +1,5 @@
 const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const basePath = __dirname
 
@@ -20,5 +21,6 @@ module.exports = {
   },
   devServer: {
     contentBase: path.join(basePath, 'dist')
-  }
+  },
+  plugins: [new HtmlWebpackPlugin()]
 }
