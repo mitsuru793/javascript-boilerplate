@@ -7,7 +7,12 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "test": "jest"
+    "dev": "ts-node src/index.ts",
+    "test": "jest",
+    "build": "webpack",
+    "prepare": "yarn run build",
+    "prepublishOnly": "yarn run test",
+    "postversion": "git push && git push --tags"
   },
   "devDependencies": {
     "@types/jest": "^24.0.13",
