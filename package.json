@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack-dev-server --open",
-    "test": "NODE_PATH=src TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' mocha --require ts-node/register test/**/*.ts"
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^24.0.13",
