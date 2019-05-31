@@ -1,6 +1,6 @@
 {
   "name": "@mitsuru793/TODO",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "TODO",
   "main": "index.js",
   "author": "mitsuru793 <mitsuru793@gmail.com>",
@@ -17,6 +17,12 @@
     "prepublishOnly": "yarn run test",
     "postversion": "git push && git push --tags"
   },
+  "files": [
+    "dist/**/*"
+  ],
+  "keywords": [
+    "TODO"
+  ],
   "devDependencies": {
     "@types/jest": "^24.0.13",
     "@types/node": "^10.12.18",
