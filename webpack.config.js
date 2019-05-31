@@ -5,14 +5,16 @@ const basePath = __dirname
 
 module.exports = {
   mode: 'development',
+  target: 'node',
   context: path.join(basePath, 'src'),
   resolve: {
     extensions: ['.js', '.ts', '.tsx']
   },
   entry: {
-    app: './index.ts'
+    index: './index.ts'
   },
   output: {
+    libraryTarget: "commonjs2",
     path: path.join(basePath, 'dist'),
     filename: '[name].js'
   },

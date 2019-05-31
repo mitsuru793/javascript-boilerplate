@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "mitsuru793 <mitsuru793@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "webpack-dev-server --open",
     "dev": "ts-node src/index.ts",
