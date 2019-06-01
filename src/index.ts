@@ -1,1 +1,2 @@
-console.log('Hello World')
+// @ts-ignore
+// console.log('Hello World')
