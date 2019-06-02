@@ -3,10 +3,13 @@ node_js:
   - stable
   - lts/*
 install:
-  - travis_retry yarn install
+  - travis_retry npm install
 script:
   - yarn run lint
-  - yarn run test
+  - yarn run test:coverage
+  - yarn global add codecov
+after_success:
+  - codecov
 deploy:
   provider: script
   skip_cleanup: true
