@@ -14,7 +14,7 @@
         "assets": [
           "CHANGELOG.md"
         ],
-        "message": "docs: update CHANGELOG.md for ${nextRelease.version}"
+        "message": "docs(CHANGELOG): update CHANGELOG.md for ${nextRelease.version}"
       }
     ],
     "@semantic-release/npm",
