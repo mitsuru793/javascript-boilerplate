@@ -6,6 +6,9 @@ const basePath = __dirname
 module.exports = {
   mode: 'development',
   target: 'node',
+  node: {
+    __dirname: false
+  },
   context: path.join(basePath, 'src'),
   resolve: {
     extensions: ['.js', '.ts', '.tsx']

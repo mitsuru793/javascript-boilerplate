@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "TODO",
   "main": "index.js",
+  "types": "dist/index.d.ts",
   "author": "mitsuru793 <mitsuru793@gmail.com>",
   "license": "MIT",
   "publishConfig": {
