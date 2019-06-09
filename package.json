@@ -34,33 +34,19 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.0.0",
-    "@commitlint/config-conventional": "^8.0.0",
-    "@semantic-release/changelog": "^3.0.2",
-    "@semantic-release/commit-analyzer": "^6.1.0",
-    "@semantic-release/git": "^7.0.8",
-    "@semantic-release/npm": "^5.1.7",
-    "@semantic-release/release-notes-generator": "^7.1.4",
+    "@mitsuru793/package-bundle-semantic-release-npm": "^1.0.1",
+    "@mitsuru793/package-bundle-typescript-lint": "^1.0.1",
+    "@mitsuru793/package-bundle-typescript-webpack": "^1.0.1",
     "@types/jest": "^24.0.13",
     "@types/node": "^10.12.18",
-    "@typescript-eslint/eslint-plugin": "^1.9.0",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-jest": "^22.6.4",
-    "eslint-plugin-prettier": "^3.1.0",
     "html-webpack-plugin": "^3.2.0",
     "husky": "^2.3.0",
     "jest": "^24.8.0",
-    "prettier": "^1.17.1",
-    "semantic-release": "^15.13.12",
-    "semantic-release-cli": "^5.1.1",
-    "standard-version": "^6.0.1",
     "ts-jest": "^24.0.2",
     "ts-loader": "^5.3.3",
-    "ts-node": "^8.0.2",
     "typescript": "^3.4.5",
     "webpack": "^4.29.3",
-    "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-cli": "^3.2.3"
   }
 }
